@@ -1,0 +1,12 @@
+package org.study.loopEX01;
+
+public class forEX01 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("for문");
+		
+		for(int i = 0;)
+	}
+
+}

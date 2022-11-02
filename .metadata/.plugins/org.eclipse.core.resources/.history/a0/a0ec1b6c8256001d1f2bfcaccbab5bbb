@@ -1,0 +1,8 @@
+package org.java.variableEx;
+
+public class VrEx04 {
+	public static void main(String[] args) {
+		System.out.println("상수(final)");
+	}
+
+}

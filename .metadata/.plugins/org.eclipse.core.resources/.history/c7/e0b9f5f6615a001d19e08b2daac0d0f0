@@ -1,0 +1,19 @@
+package org.study.loopEX;
+
+public class forEX01 {
+	public static void main(String[] args) {
+		//Scanner 이용해서 변수 2개를 받아
+		//첫번째 숫자 부터 두번째 숫자까지 콘솔에 출력되게 하기
+		
+		System.out.println("for문");
+		
+		for(int i=0;i<10;i++) {
+			if(i==0) {
+				System.out.print(i);
+			}else {
+			System.out.print(i + ",");
+			}
+		}//break가 온다면 이 자리에 오게 됨
+	}
+
+}

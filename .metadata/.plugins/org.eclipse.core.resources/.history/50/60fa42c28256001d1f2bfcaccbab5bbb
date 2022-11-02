@@ -1,0 +1,11 @@
+package org.java.variableEx;
+
+public class VrEx04 {
+	public static void main(String[] args) {
+		System.out.println("상수(final)");
+		
+		final static int num1;
+		num1 = 100; //final 상수는 한번만 초기화된다
+	}
+
+}

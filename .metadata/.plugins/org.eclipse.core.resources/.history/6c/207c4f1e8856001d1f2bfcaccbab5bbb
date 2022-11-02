@@ -1,0 +1,15 @@
+package org.java.variableEx;
+
+public class CastingEX {
+	public static void main(String[] args) {
+		System.out.println("형 변화");
+		
+		int i = 10;
+		double d = 1.1;
+		
+		double d2 = i + d;
+		
+		double d3 = 20 + 1.5;
+	}
+
+}

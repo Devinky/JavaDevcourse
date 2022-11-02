@@ -1,0 +1,18 @@
+package org.java.variableEx;
+
+public class BasicClass {
+		
+	public String userID = "m11";
+	public String userPW = "1111";
+	
+	public static final 
+		
+	public void basicMethod(String str) {
+		
+		System.out.println("ID : " + userID);
+		System.out.println("Password : " + userPW);
+			
+		}
+			
+	}
+	
