@@ -1,0 +1,13 @@
+package org.study.loopEX;
+
+import java.util.Scanner;
+
+public class forEX02 {
+	public static void main(String[] args) {
+		
+		System.out.println("for문");
+		
+		
+	}
+
+}

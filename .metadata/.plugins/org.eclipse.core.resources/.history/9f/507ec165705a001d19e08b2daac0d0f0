@@ -1,0 +1,15 @@
+package org.study.loopEX;
+
+public class forEX03 {
+	public static void main(String[] args) {
+		
+		System.out.println("for문");
+		//Scanner이용해서 시작단과 끝단을 입력 받아 콘솔에 출력하기
+		//단, 시작단은 끝단보다 작아야 한다
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+	}
+
+}

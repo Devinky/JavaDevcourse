@@ -1,0 +1,17 @@
+package org.study.loopEX;
+
+public class whileEX02 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("while문2");
+		
+		int i = 0;
+		while(true) {
+			System.out.println(i);		
+			i++;
+		}
+		
+	}
+
+}

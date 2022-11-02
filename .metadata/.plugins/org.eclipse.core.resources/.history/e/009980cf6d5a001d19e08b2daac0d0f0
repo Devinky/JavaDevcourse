@@ -1,0 +1,16 @@
+package org.study.loopEX;
+
+import java.util.Scanner;
+
+public class forEX02 {
+	public static void main(String[] args) {
+		
+		System.out.println("for문");
+		
+		for(int i=2;i<10;i++1) {
+			
+		}
+		
+	}
+
+}
