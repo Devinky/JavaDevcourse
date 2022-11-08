@@ -3,5 +3,8 @@
 <fullyQualifiedTypeName name="org.study.oop.ClassBasic"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.study.oop.FieldEX"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.study.oop.ConstructEX01"/>
+<fullyQualifiedTypeName name="org.study.oop.CarBasic"/>
 </qualifiedTypeNameHistroy>
