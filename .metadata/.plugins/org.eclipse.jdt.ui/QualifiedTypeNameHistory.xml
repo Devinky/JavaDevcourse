@@ -4,7 +4,13 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.study.oop.FieldEX"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.study.oop.ConstructEX01"/>
 <fullyQualifiedTypeName name="org.study.oop.CarBasic"/>
+<fullyQualifiedTypeName name="org.study.oop.ConstructEX"/>
+<fullyQualifiedTypeName name="org.study.package01.ModifyEX01"/>
+<fullyQualifiedTypeName name="org.study.DBMemberCommend.MemberJoinCommend"/>
+<fullyQualifiedTypeName name="org.study.DBMemberDto.MemberDTO"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.study.Inheritance.ParentsClass"/>
+<fullyQualifiedTypeName name="org.study.Inheritance.Child01"/>
 </qualifiedTypeNameHistroy>
