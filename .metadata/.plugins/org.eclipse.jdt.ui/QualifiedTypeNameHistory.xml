@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.study.oop.ClassBasic"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.study.oop.FieldEX"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="org.study.oop.ConstructEX01"/>
@@ -43,5 +42,18 @@
 <fullyQualifiedTypeName name="org.study.Commend.DBselectDo"/>
 <fullyQualifiedTypeName name="org.study.Commend.SQLQueryCommend"/>
 <fullyQualifiedTypeName name="org.study.Commend.DBUpdateDo"/>
+<fullyQualifiedTypeName name="org.study.interfaceEX.interfaceEX01"/>
+<fullyQualifiedTypeName name="org.study.interfaceEX.interfaceEX03Main"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="org.study.commend.DBUpdateCommend"/>
+<fullyQualifiedTypeName name="org.study.commend.DBSelectCommend"/>
+<fullyQualifiedTypeName name="org.study.commend.DBInsertCommend"/>
+<fullyQualifiedTypeName name="org.study.commend.DBDeleteCommend"/>
+<fullyQualifiedTypeName name="org.study.commend.CRUDCommend"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
