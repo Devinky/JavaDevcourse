@@ -1,0 +1,11 @@
+package org.study.basicPackage;
+
+public class StringEX01 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+		
+		String str = new String("Java2022");
+	}
+
+}

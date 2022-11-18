@@ -1,0 +1,15 @@
+package org.study.innerclass;
+
+interface I1{
+	void i1();
+}
+
+interface I2 extends I1{
+	
+}
+
+public class AnonymousClassEX02 {
+	public static void main(String[] args) {
+
+	}
+}

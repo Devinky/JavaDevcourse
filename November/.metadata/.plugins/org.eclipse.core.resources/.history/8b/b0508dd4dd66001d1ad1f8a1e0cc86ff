@@ -1,0 +1,28 @@
+package org.study.connect;
+
+import java.sql.Connection;
+
+public class DBConnect {
+	
+	public static Connection getConnection() {
+		
+		Connection conn = null; //DB연결
+		
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		String user = "system";
+		String password = "1234";
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		
+		//1.driver load
+		try {
+			Class.forName(driver);
+			System.out.println("Driver OK");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+			System.out.println("Driver NULL");
+		}
+		
+		return conn;
+	}
+
+}

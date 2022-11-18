@@ -1,0 +1,19 @@
+package org.study.innerclass;
+
+interface A{
+	void ab1();
+}
+class A1 implements A{
+
+	@Override
+	public void ab1() {
+		System.out.println("오버라이드");
+	}
+	
+}
+
+public class AnonymousClass01 {
+	public static void main(String[] args) {
+		
+	}
+}

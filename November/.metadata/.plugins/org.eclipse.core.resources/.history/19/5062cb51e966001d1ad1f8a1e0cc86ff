@@ -1,0 +1,9 @@
+package org.study.innerclass;
+
+public class DAO {
+	
+	private DAO() {
+		System.out.println("DAO");
+	}
+
+}

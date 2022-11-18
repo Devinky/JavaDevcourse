@@ -1,0 +1,12 @@
+package org.study.innerclass;
+
+public class SingletonEX {
+	public static void main(String[] args) {
+		
+		new DAO();
+		new DAO();
+		
+		DAO.getInstance();
+		
+	}
+}

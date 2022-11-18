@@ -1,0 +1,45 @@
+package org.study.basicPackage;
+
+import java.util.Scanner;
+
+public class StringEX03 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+		
+		String str1 ="Java 2022 Project";
+		System.out.println(str1.length());
+		String str2 = str1.substring(5);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		//substring(시작번지, 끝번지) 문자열을 시작번지부터 끝번지 앞까지 추출
+		System.out.println(str1.substring(5, 9)); //파이썬 인덱스 슬라이드랑 똑같음
+		
+		// .do를 제외한 문자열 추출 -> 하나의 메서드 substring()
+		String query1 = "/register.do";
+		String query2 = "/list.do";
+		String query3 = "/modify.do";
+		String query4 = "/memberDelete.do";
+		
+		if(!query4.substring(query4.length()-3).equals(".do")) {
+			System.out.println("입력값 오류");
+		}
+		
+		System.out.println(query1.substring(0, query1.length()-3));
+		System.out.println(query2.substring(0, query2.length()-3));
+		System.out.println(query3.substring(0, query3.length()-3));
+		System.out.println(query4.substring(0, query4.length()-3));
+		
+		//끝자리 세 자리를 .do로 입력을 받고 .do를 제외하고 문자열의 값이
+		// /insert면 회원가입 실행
+		// /select면 회원조회 실행
+		// /update면 회원수정 실행
+		// /delete면 회원탈퇴 실행
+		// /exit -> 종료
+		// 나머지를 입력하면 URI를 확인해주세요
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.study.interfaceEX;
+
+public class interfaceEX01SubMain {
+	
+	public static void main(String[] args) {
+		
+		//new interfaceEX01() new로 접근 불가능
+		
+		interfaceEX01Sub in1 = new interfaceEX01Sub();
+		
+	}
+
+}

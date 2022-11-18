@@ -1,0 +1,20 @@
+package org.study.exception;
+
+import java.util.Scanner;
+
+public class ExceptionEX01 {
+	public static void main(String[] args) {
+		System.out.println("Exception");
+		
+		//Scanner 정수를 입력 받고 num1을 나누어서 결과를 출력하기
+		int num1 = 100;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요 : ");
+		int num2 = input.nextInt();
+		
+		System.out.println(num2/num1);
+	}
+
+}

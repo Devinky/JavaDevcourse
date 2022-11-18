@@ -1,0 +1,10 @@
+package org.study.interfaceEX;
+
+public interface interfaceEX03Main implements interfaceEX03 {
+
+		@Override
+		public void excuteQuery() {
+			System.out.println("오버라이드 excuteQuery");
+		}
+
+}

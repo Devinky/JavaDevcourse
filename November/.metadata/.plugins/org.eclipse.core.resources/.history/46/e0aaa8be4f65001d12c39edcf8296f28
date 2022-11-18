@@ -1,0 +1,9 @@
+package org.study.basicPackage;
+
+public class Test1116 {
+	
+	public static void main(String[] args) {
+		Class.forName("dracle.jdbc.driver.OriclaDriver");
+	}
+
+}

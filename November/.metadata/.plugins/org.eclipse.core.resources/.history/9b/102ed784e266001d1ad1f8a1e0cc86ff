@@ -1,0 +1,15 @@
+package org.study.exception;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public class Sql01 implements SqlCommend{
+
+	@Override
+	public void excuteQueryCommen() throws IOException, SQLException, ClassNotFoundException {
+		System.out.println("회원가입");
+	}
+	
+	
+
+}

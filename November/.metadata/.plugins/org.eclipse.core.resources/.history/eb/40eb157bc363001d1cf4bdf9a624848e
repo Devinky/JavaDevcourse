@@ -1,0 +1,15 @@
+package org.study.interfaceEX;
+
+public interface interfaceEX03Main {
+
+	public class interfaceEX03Main implements interfaceEX03 {
+
+		@Override
+		public void excuteQuery() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+}

@@ -1,0 +1,16 @@
+package org.study.interfaceEX;
+
+interface A1{
+	void a1();
+}
+interface B1{
+	void b1();
+}
+
+class ABSub implements A1, B1{
+	
+}
+
+public class InterfaceEX5Main {
+
+}

@@ -1,0 +1,15 @@
+package org.study.interfaceEX;
+
+public class interfaceEX01Sub implements interfaceEX01, interfaceEX02 {
+
+	@Override
+	public void acstractMethod1() {
+		System.out.println("오버라이딩 추상메서드2");
+	}
+
+	@Override
+	public void abstractMethod2() {
+		System.out.println("오버라이딩 추상메서드2");
+	}
+
+}

@@ -1,0 +1,32 @@
+package org.study.controller;
+
+import org.study.commend.CRUDCommend;
+import org.study.commend.DBDeleteCommend;
+import org.study.commend.DBInsertCommend;
+import org.study.commend.DBSelectCommend;
+import org.study.commend.DBUpdateCommend;
+
+public class MemberController {
+	
+	public static void main(String[] args) {
+		
+		String query = "exit";
+		
+		if(query.equals("insert")) {
+			CRUDCommend commend = new DBInsertCommend();
+			commend.excuteCommend();
+		}else if(query.equals("select")) {
+			CRUDCommend commend = new DBSelectCommend();
+			commend.excuteCommend();
+		}else if(query.equals("update")) {
+			CRUDCommend commend = new DBUpdateCommend();
+			commend.excuteCommend();
+		}else if(query.equals("delete")) {
+			CRUDCommend commend = new DBDeleteCommend();
+			commend.excuteCommend();
+		}else {
+			System.out.println("입력오류");
+		}
+	}
+
+}

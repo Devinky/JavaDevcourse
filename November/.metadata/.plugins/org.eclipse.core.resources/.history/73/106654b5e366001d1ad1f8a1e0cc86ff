@@ -1,0 +1,16 @@
+package org.study.exception;
+
+public class ExceptionEX08 {
+	public static void main(String[] args) {
+		
+		try {
+			System.out.println(1);
+			//고의로 예외 발생
+			throw new Exception();
+			System.out.println(2);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println("프로그램 정상 종료");
+	}
+}

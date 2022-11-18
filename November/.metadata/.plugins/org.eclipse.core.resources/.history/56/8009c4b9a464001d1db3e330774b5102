@@ -1,0 +1,9 @@
+package org.study.basicPackage;
+
+public class StringEX02 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+	}
+
+}

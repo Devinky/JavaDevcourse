@@ -1,0 +1,22 @@
+package org.study.basicPackage;
+
+public class StringEX03 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+		
+		String str1 ="Java 2022 Project";
+		System.out.println(str1.length());
+		String str2 = str1.substring(5);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		// .do를 제외한 문자열 추출
+		String query1 = "/register.do";
+		String query2 = "/list.do";
+		String query3 = "/modify.do";
+		String query4 = "/memberDelete.do";
+	}
+
+}

@@ -1,0 +1,8 @@
+package org.study.exception;
+
+public class ExceptionEX01 {
+	public static void main(String[] args) {
+		System.out.println("Exception");
+	}
+
+}

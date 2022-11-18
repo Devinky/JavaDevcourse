@@ -1,0 +1,14 @@
+package org.study.innerclass;
+
+interface in1{
+	void m1();
+}
+
+abstract class AbS1{
+	abstract void m2();
+}
+
+public class AnonymousClassEX {
+	
+
+}

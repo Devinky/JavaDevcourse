@@ -1,0 +1,30 @@
+package org.study.basicPackage;
+
+public class StringEX03 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+		
+		String str1 ="Java 2022 Project";
+		System.out.println(str1.length());
+		String str2 = str1.substring(5);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		//substring(시작번지, 끝번지) 문자열을 시작번지부터 끝번지 앞까지 추출
+		System.out.println(str1.substring(5, 9)); //파이썬 인덱스 슬라이드랑 똑같음
+		
+		// .do를 제외한 문자열 추출 -> 하나의 메서드 substring()
+		String query1 = "/register.do";
+		String query2 = "/list.do";
+		String query3 = "/modify.do";
+		String query4 = "/memberDelete.do";
+		
+		query1.substring(1, endIndex);
+		query2.substring(1, endIndex);
+		query3.substring(1, endIndex);
+		query4.substring(1, endIndex);
+	}
+
+}

@@ -1,0 +1,11 @@
+package org.study.basicPackage;
+
+public class WrapperEX02 {
+	
+	public static void main(String[] args) {
+		System.out.println("Wrapper클래스");
+		System.out.println("객체형 => 기본타입 : 언박싱");
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package org.study.exception;
+
+public class DBConnectMain {
+	
+	public static void main(String[] args) {
+		//static메서드 호출
+		DBConnect.getConnection();
+		
+	}
+	
+
+}

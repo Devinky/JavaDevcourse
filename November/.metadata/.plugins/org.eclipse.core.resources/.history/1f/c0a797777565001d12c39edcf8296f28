@@ -1,0 +1,16 @@
+package org.study.basicPackage;
+
+import java.util.Date;
+
+public class DateEX01 {
+	public static void main(String[] args) {
+		System.out.println("Date");
+		
+		Date now = new Date();
+		System.out.println(now);
+		//요일 달 날짜 시:분:초 
+		
+		System.out.println(now.getYear()+1900);
+	}
+
+}

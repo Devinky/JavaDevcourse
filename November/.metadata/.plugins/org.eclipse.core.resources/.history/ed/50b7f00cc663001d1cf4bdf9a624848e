@@ -1,0 +1,9 @@
+package org.study.common;
+
+public class UtilClass {
+	
+	public static void staticMethod() {
+		
+	}
+
+}

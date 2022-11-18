@@ -1,0 +1,13 @@
+package org.study.interfaceEX;
+
+interface A{
+	void a1();
+}
+
+interface B extends A{
+	void b1();
+}
+
+public class Interface4Main {
+
+}

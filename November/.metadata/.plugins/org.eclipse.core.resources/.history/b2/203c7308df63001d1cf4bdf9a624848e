@@ -1,0 +1,10 @@
+package org.study.interfaceEX;
+
+interface in1{
+	public static final int MAXNUM = 500;
+	public abstract void in1Method1();
+}
+
+public class InterfaceEXMain {
+
+}

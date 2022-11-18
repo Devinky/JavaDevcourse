@@ -1,0 +1,52 @@
+package org.study.basicPackage;
+
+public class StringEX02 {
+	
+	public static void main(String[] args) {
+		System.out.println("String");
+		//String 생성 방법
+		String str1 = "Java2020";
+		String str2 = new String("Java2020");
+		char[] ch = {'J','a','v','a','2','0','2','0'};
+		String str3 = new String(ch);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str3);
+		System.out.println("String Method");
+		
+		String s1 = "Java";
+		String s2 = "Oracle";
+		
+		String strTest1 = "java 2022 Project";
+		int size = strTest1.length();
+		System.out.println("문자열 길이 : " + size);
+		char strTest1Ch = strTest1.charAt(5);
+		System.out.println(strTest1Ch);
+		
+		//문자열 비교(사전순서)
+		System.out.println(strTest1.codePointAt(5)); //빠른
+		System.out.println(s1.compareTo(s2)); //동일
+		System.out.println("m1".compareTo("m1")); //늦은
+		
+		//문자열 결합 -> 원래 문자열은 그대로, 원본이 수정되지 않는다
+		System.out.println(s1);
+		System.out.println(s2);
+		
+		String s3 = s1.concat(s2);
+		System.out.println(s3);
+
+		System.out.println(s1);
+		System.out.println(s2);
+		
+		//문자열에 찾을 값이 포함되어 있는지?
+		System.out.println("m1234".contains("1"));
+		
+		String strTest2 = "Java 2022 Projact2";
+		String newstr2 = strTest2.replace("2022","2023");
+		System.out.println(newstr2);
+		System.out.println(strTest2);
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package org.study.exception;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public interface SqlCommend {
+	
+	void excuteQueryCommen() throws IOException, SQLException;
+
+}

@@ -1,0 +1,5 @@
+package org.study.commend;
+
+public interface CRUDCommend {
+	void excuteCommend();
+}

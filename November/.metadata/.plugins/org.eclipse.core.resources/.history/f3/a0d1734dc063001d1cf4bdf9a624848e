@@ -1,0 +1,18 @@
+package org.study.interfaceEX;
+
+public class interfaceEX01SubMain {
+	
+	public static void main(String[] args) {
+		
+//		new interfaceEX01() new로 객체생성 불가능
+		
+		//interfaceEX01Sub 타입(구현객체, 자식타입)
+		interfaceEX01Sub in1 = new interfaceEX01Sub();
+		in1.num1 = 10;
+		in1.acstractMethod1();
+		in1.abstractMethod2();
+		in1.defaultMethod();
+		in1.method1();
+	}
+
+}
