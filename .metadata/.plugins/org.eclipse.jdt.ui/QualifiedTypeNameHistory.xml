@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.study.Polymorphism.Sub2"/>
-<fullyQualifiedTypeName name="org.study.test.ActionQueryDelete"/>
-<fullyQualifiedTypeName name="org.study.test.ActionQueryUpdate"/>
-<fullyQualifiedTypeName name="org.study.test.ActionQuerySelect"/>
-<fullyQualifiedTypeName name="org.study.commend.DBQueryCommend"/>
-<fullyQualifiedTypeName name="org.study.test.ActionQueryInsert"/>
-<fullyQualifiedTypeName name="org.study.commend.MemberInsertCommend"/>
-<fullyQualifiedTypeName name="org.study.commend.MemberDeleteCommend"/>
-<fullyQualifiedTypeName name="org.study.commend.MemberUpdateCommend"/>
-<fullyQualifiedTypeName name="org.study.commend.MemberSelectCommend"/>
-<fullyQualifiedTypeName name="org.study.Polymorphism.Parent"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.AbstractEX01Sub01"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.AbstractEX01Sub02"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.Abstract01"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.AbstractEX01Sub02Sub"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.AbstractEX01"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.Abstract01Sub01"/>
 <fullyQualifiedTypeName name="org.study.abstractEX.Abstract01Sub01Sub"/>
 <fullyQualifiedTypeName name="org.study.abstractEX.DBInsertDo"/>
 <fullyQualifiedTypeName name="org.study.abstractEX.DBDeleteDo"/>
@@ -57,7 +40,24 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="org.study.exception.DBConnect"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="org.study.exception.DBConnect"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="org.study.exception.ExceptionEX09"/>
+<fullyQualifiedTypeName name="org.study.innerclass.DAO"/>
+<fullyQualifiedTypeName name="org.study.innerclass.InstanceClass.InstanceBasic"/>
+<fullyQualifiedTypeName name="org.study.innerclass.StaticClassMain"/>
+<fullyQualifiedTypeName name="org.study.innerclass.StaticClass"/>
+<fullyQualifiedTypeName name="org.study.innerclass.StaticClass.StaticBasic"/>
+<fullyQualifiedTypeName name="org.study.innerclass.InnerClassEX.StaticClass2"/>
+<fullyQualifiedTypeName name="org.study.innerclass.InnerClassEX.InstanceClass2"/>
+<fullyQualifiedTypeName name="org.study.innerclass.Interface01"/>
+<fullyQualifiedTypeName name="org.study.innerclass.In1"/>
+<fullyQualifiedTypeName name="org.study.innerclass.AbS1"/>
+<fullyQualifiedTypeName name="org.study.innerclass.C1"/>
+<fullyQualifiedTypeName name="org.study.innerclass.I1"/>
+<fullyQualifiedTypeName name="org.study.innerclass.A"/>
 </qualifiedTypeNameHistroy>
