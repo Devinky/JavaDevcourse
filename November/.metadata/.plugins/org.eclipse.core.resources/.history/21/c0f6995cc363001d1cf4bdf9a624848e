@@ -1,9 +1,0 @@
-package org.study.interfaceEX;
-
-public interface interfaceEX03Main {
-
-	public class interfaceEX3Main implements interfaceEX03 {
-		
-	}
-	
-}

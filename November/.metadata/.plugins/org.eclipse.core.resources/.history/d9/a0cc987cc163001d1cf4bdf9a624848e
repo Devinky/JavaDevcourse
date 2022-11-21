@@ -1,9 +1,0 @@
-package org.study.interfaceEX;
-
-public interface interfaceEX03 {
-
-	final int MAXNUM = 1000;
-//	public abstract void excuteQuery();
-	void excuteQuery();
-	
-}

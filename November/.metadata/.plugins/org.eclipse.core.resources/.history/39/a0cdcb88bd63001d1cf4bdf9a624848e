@@ -1,9 +1,0 @@
-package org.study.interfaceEX;
-
-public interface interfaceEX01 {
-	
-//	public int num1;
-	public static final int MAXNUM = 1000; //final상수
-	public abstract void acstractMethod1();//abstract메서드
-
-}

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.study.abstractEX.Abstract01Sub01Sub"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.DBInsertDo"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.DBDeleteDo"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.DBUpdateDo"/>
-<fullyQualifiedTypeName name="org.study.abstractEX.SQLQueryCommend"/>
 <fullyQualifiedTypeName name="org.study.abstractEX.DBSelectDo"/>
 <fullyQualifiedTypeName name="org.study.Commend.DBInsertDo"/>
 <fullyQualifiedTypeName name="org.study.Commend.DBDeleteDo"/>
@@ -20,14 +15,12 @@
 <fullyQualifiedTypeName name="org.study.commend.CRUDCommend"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.text.DateFormat"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="org.study.innerclass.C1"/>
 <fullyQualifiedTypeName name="org.study.innerclass.I1"/>
 <fullyQualifiedTypeName name="org.study.innerclass.A"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.SetOverrideType"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.print.attribute.Size2DSyntax"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

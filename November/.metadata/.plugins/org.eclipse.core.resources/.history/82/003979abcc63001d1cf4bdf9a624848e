@@ -1,5 +1,0 @@
-package org.study.commend;
-
-public class DBInsertCommend implements CRUDCommend {
-
-}

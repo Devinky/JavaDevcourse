@@ -1,9 +1,0 @@
-package org.study.interfaceEX;
-
-public class interface03MainClass {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}
