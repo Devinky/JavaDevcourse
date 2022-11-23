@@ -1,8 +1,0 @@
-package org.study.basicPackage;
-
-public class DateEX01 {
-	public static void main(String[] args) {
-		System.out.println("Date");
-	}
-
-}
