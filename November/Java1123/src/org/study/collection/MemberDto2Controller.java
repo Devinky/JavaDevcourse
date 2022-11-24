@@ -68,6 +68,8 @@ public class MemberDto2Controller {
 					System.out.println("로그인 성공");
 					bool2 = true;
 					break;
+				}else if(!id.equals(userId2)&&email.equals(email2)) {
+					System.out.println("로그인 실패! 다시 로그인 해주세요");
 				}
 			}
 			break;

@@ -1,7 +1,0 @@
-package org.study.selftest;
-
-public class DateFormatEX {
-	public static void main(String[] args) {
-		Calendar noew = Calender.getInstance();
-	}
-}
