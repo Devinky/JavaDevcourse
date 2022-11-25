@@ -1,8 +1,0 @@
-package org.study.innerclass;
-
-public class InstanceClassMain {
-	public static void main(String[] args) {
-		
-	}
-
-}

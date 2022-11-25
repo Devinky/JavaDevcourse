@@ -1,9 +1,0 @@
-package org.study.innerclass;
-
-public class InnerClassEXMain {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

@@ -1,8 +1,0 @@
-package org.study.exception;
-
-public interface ExceptionEX09 {
-	
-	public abstract void excute() throws ClassNotFoundException, 
-	
-	
-}

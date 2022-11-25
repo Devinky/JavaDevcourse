@@ -1,7 +1,0 @@
-package org.study.exception;
-
-public class SqlCommend {
-	
-	void excuteQueryCommen() throws IOException, SQLException;
-
-}
