@@ -37,7 +37,7 @@ public class JMenuEventEx extends JFrame implements ActionListener{
 		this.setSize(500, 400); //프레임크기
 		this.setVisible(true);
 		
-		jMe_01.addActionListener(this); //이벤트 연결
+		jMe_01.addActionListener(this); //이벤트 연결 jMe_01을 클릭하면 actionPerformed 실행
 	}
 	
 	
@@ -50,6 +50,20 @@ public class JMenuEventEx extends JFrame implements ActionListener{
 		dial.setSize(300, 200);
 		dial.setVisible(true);
 		
+		//안드로이드 App 이벤트 적용 예시
+//		btn.addActionListener(this); //btn클릭시 -> ActionListener 오버라이드 actionPerformed 메서드 구현 방법
+//		
+//		ActionListener a1 = new ActionListener() {
+//
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				System.out.println("오버라이딩");
+//				dial.setVisible(false);
+//			}
+//		};
+		
+		//btn클릭 -> ActionListener의 actionPerfomed메서드를 구현
+		//안드로이드 이벤트 구현 방법 중 하나
 		btn.addActionListener(new ActionListener() {
 			
 			@Override
