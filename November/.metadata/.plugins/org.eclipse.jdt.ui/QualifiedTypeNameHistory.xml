@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="org.study.selftest.IoSelfTest"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="org.study.gui.InnerClassEx"/>
 <fullyQualifiedTypeName name="org.study.gui.SwingEx01"/>
@@ -49,15 +41,23 @@
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.study.jdbc.A"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberCommend"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberSelectDo"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberInsertDo"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberUpdateDo"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberDeleteDo"/>
-<fullyQualifiedTypeName name="org.study.dao.MemberDao"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="org.study.commend.ExcuteCommend"/>
+<fullyQualifiedTypeName name="org.study.commend.MemberSelect"/>
+<fullyQualifiedTypeName name="org.study.commend.MemberUpdate"/>
+<fullyQualifiedTypeName name="org.study.commend.MemberDelete"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="org.study.dbconnect.DBConnect"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="org.study.dbconnect.DBConnect"/>
+<fullyQualifiedTypeName name="org.study.dao.MemberDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.study.dto.MemberDto"/>
 </qualifiedTypeNameHistroy>
