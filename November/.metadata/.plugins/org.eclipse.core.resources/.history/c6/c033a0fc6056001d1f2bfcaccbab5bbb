@@ -1,9 +1,0 @@
-package org.java.variableEx;
-
-public class HelloWorld {
-	//main method
-	public static void main(String[] args) {
-		
-	}
-
-}

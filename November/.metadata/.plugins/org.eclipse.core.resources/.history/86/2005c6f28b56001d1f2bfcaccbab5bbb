@@ -1,8 +1,0 @@
-package org.java.variableEx;
-
-public class ScannerEx01 {
-	public static void main(String[] args) {
-		System.out.println("Scanner");
-	}
-
-}
