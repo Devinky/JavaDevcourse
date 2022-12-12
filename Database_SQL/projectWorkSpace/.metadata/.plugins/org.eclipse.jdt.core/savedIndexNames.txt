@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Administrator\Desktop\Javastudy_HIK\Database_SQL\projectWorkSpace\.metadata\.plugins\org.eclipse.jdt.core
-3781067465.index
-4280842129.index
-2141946932.index
-1910611800.index
-2522460767.index
-115781582.index
-2019021683.index

@@ -1,9 +1,0 @@
-package org.project.dto;
-
-public class MemberDto {
-	//SQL과 DB를 연결하는 객체
-	private String userId; //기본키
-	private String userPw;
-	private String email;
-	
-}
