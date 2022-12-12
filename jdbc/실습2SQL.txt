@@ -1,0 +1,33 @@
+
+--테이블 삭제
+drop table 테이블이름;
+drop table member2;
+
+--테이블 생성
+create table member2(
+userId varchar2(10) not null primary key,
+userPw varchar2(10) not null,
+age number(3) not null,
+email varchar2(100) not null
+);
+
+--테이블 구조(desc = description)
+desc 테이블이름;
+desc member2;
+
+--더미데이터(임시데이터)
+insert into member2(userId,userPw,age,email) values('m1','1111',11,'m1@email.com');
+insert into member2(userId,userPw,age,email) values('m2','2222',22,'m2@email.com');
+insert into member2(userId,userPw,age,email) values('m3','3333',33,'m3@email.com');
+insert into member2(userId,userPw,age,email) values('m4','4444',44,'m4@email.com');
+insert into member2(userId,userPw,age,email) values('m5','5555',55,'m5@email.com');
+
+--조회 select 필드,,from 테이블명;
+select * from member2;
+select userid, userpw, age, email from member2; --member2의 모든 테이블데이터를 조회
+
+--윈도우 칼럼 크기 변경
+col userid format a10 --문자열
+col userpw format a10 --문자열
+col age format 9999 --숫자
+col email format a20 --문자열
