@@ -1,0 +1,21 @@
+package test;
+
+public class Test1 {
+	
+	public int solution(int num1, int num2) {
+        int answer = 0;
+        
+        answer = num1/num2;
+        System.out.print("num1 : " + num1 + "num2 : " + "result : " + answer);
+            
+        return answer;
+    }
+	
+	public static void main(String[] args) {
+		
+		Test1 test = new Test1();
+		test.solution(0, 0);
+		
+	}
+
+}

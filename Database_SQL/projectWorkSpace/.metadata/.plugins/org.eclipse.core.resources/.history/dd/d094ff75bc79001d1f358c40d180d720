@@ -1,0 +1,15 @@
+package org.project.dto;
+
+import java.sql.Connection;
+
+public class MemberDto {
+	
+	public static Connection getConnection() {
+		Connection conn = null;
+		
+		
+		
+		return conn;
+	}
+
+}

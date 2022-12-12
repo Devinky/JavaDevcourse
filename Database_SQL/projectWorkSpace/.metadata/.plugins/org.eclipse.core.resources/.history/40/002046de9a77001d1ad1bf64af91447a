@@ -1,0 +1,25 @@
+package test;
+
+public class Test1 {
+	
+	public int solution(int num1, int num2) {
+		int answer = 0;
+        
+        if(num1!=num2){
+            System.out.print("-1");
+        }else{
+            System.out.print("1");
+        }
+        
+        return answer;
+    }
+	
+	public static void main(String[] args) {
+		
+		Test1 test = new Test1();
+		int result = test.solution(1, 1);
+		
+		
+	}
+
+}

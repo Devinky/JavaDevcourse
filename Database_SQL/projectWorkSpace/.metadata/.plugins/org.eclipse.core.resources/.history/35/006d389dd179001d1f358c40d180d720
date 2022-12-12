@@ -1,0 +1,12 @@
+package org.project.commend;
+
+public class MemberSelectDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("회원목록 조회");
+		
+		
+	}
+
+}

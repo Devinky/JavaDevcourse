@@ -1,0 +1,11 @@
+package org.project.dto;
+
+public class MemberDto {
+	//DB테이블 <-> Java 연결
+	private String userId; //기본키
+	private String userPw;
+	private String email;
+	
+	
+	
+}

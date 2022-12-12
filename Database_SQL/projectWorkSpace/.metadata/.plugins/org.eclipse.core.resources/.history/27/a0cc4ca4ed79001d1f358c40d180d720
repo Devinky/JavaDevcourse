@@ -1,0 +1,18 @@
+package org.project.commend;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.project.dto.BoardDto;
+
+public class BoardSelect implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("게시글 목록");
+		
+		List<BoardDto> list = new ArrayList<BoardDto>();
+		
+	}
+
+}

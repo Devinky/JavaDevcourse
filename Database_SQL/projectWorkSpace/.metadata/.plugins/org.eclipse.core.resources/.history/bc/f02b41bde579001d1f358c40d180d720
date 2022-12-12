@@ -1,0 +1,11 @@
+package org.project.commend;
+
+public class BoardWrite implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		
+	}
+	
+
+}

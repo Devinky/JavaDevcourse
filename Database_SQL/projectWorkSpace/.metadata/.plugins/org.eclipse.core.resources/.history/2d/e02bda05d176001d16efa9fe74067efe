@@ -1,0 +1,10 @@
+package org.project.commend;
+
+public class BoardWrite implements MemberCommend {
+
+	@Override
+	public void excuteQueryCommend() {
+		System.out.println("게시글 작성");
+	}
+
+}

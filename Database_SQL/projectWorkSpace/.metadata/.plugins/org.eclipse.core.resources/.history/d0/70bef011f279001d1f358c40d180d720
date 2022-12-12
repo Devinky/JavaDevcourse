@@ -1,0 +1,10 @@
+package org.project.commend;
+
+public class boardListDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("회원 글 목록 조회");
+	}
+
+}

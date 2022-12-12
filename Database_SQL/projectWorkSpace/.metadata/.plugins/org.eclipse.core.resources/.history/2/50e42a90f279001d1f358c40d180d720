@@ -1,0 +1,17 @@
+package org.project.commend;
+
+import org.project.dao.Dao;
+
+public class boardListDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("회원 글 목록 조회");
+		
+		Dao dao = Dao.getInstance();
+		
+		
+		
+	}
+
+}

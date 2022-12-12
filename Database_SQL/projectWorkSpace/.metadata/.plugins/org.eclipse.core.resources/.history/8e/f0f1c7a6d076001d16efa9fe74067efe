@@ -1,0 +1,11 @@
+package org.project.dto;
+
+public class Board1207 {
+	
+	private int bId;
+	private String writeId;
+	private String bContent;
+	
+	
+
+}

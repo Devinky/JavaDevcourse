@@ -1,0 +1,19 @@
+package org.project.commend;
+
+import java.util.List;
+
+import org.project.dao.MemberDao;
+import org.project.dto.Board01;
+
+public class BoardSelect implements MemberCommend {
+
+	@Override
+	public void excuteQueryCommend() {
+		System.out.println("게시글 목록");
+		
+		MemberDao dao = new MemberDao();
+		
+		List<Board01> blist = dao.BoardSelectDo();
+	}
+
+}

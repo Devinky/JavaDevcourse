@@ -1,0 +1,10 @@
+package org.project.commend;
+
+public class MemberInsertDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("");
+	}
+
+}

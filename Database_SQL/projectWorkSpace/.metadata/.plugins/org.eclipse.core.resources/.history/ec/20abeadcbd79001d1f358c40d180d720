@@ -1,0 +1,16 @@
+package org.project.dto;
+
+import java.util.Date;
+
+public class BoardDto {
+	
+	private int no; //시퀀스(자동으로 1씩 증가)
+	private String bTitle;
+	private String bContent;
+	private String nickName; //별칭
+	private Date date; //날짜
+	private String bWriter; //글쓴이 -> 외래키(FK)
+	
+	
+
+}

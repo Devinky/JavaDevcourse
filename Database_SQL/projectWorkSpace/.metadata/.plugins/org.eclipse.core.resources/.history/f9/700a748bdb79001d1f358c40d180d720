@@ -1,0 +1,10 @@
+package org.project.commend;
+
+public class LoginOkDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package org.project.commend;
+
+public class BoardWrite implements MemberCommend {
+
+	@Override
+	public void excuteQueryCommend() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package org.project.commend;
+
+import java.util.List;
+
+import org.project.dao.Dao;
+import org.project.dto.MemberDto;
+
+public class MemberSelectDo implements ExecuteCommend {
+
+	@Override
+	public void executeQueryCommend() {
+		System.out.println("회원목록 조회");
+		
+		System.out.println("회원목록 조회");
+		
+		Dao dao = Dao.getInstance();
+		
+		List<MemberDto> users = dao.selectDo();
+		
+		if(users!=null) {
+			
+			for(MemberDto user: users) {
+				System.out.print(user.getUserId()+" ");
+				System.out.print(user.getUserPw()+" ");
+				System.out.println(user.getEmail());
+			}			
+			
+		}else {
+			System.out.println("회원조회 Fail!!");
+		}
+	}
+
+}
